@@ -1,5 +1,4 @@
 body {
-    /* background-color: rgb(244, 244, 244) */
     background-color: #FF4101;
 }
 header {
@@ -7,14 +6,21 @@ header {
     font-weight: 800;
     color: white;
     font-family: 'Sawarabi Gothic', sans-serif;
-}
-
-ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     text-transform: uppercase;
+}
+
+button {
+    border: none;
+    background: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 .main_profile_div img {
@@ -37,7 +43,6 @@ ul {
     z-index: -1;
     top: -120px;
     color: white;
-    /* color: black; */
     width: 150%;
     transform: rotate(-8deg);
     font-family: 'Sawarabi Gothic', sans-serif;
@@ -67,7 +72,8 @@ ul {
 	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: center;
-	align-content: stretch;
+    align-content: center;
+    padding-top: 38px;
 }
 
 .scroll_div p {
@@ -85,4 +91,47 @@ ul {
     border: solid white .5px;
     position: relative;
     top: 18px;
+}
+
+.fixed_a_tags_div {
+    position: fixed;
+    font-size: 16px;
+    left: 50px;
+    width: 250px;
+    bottom: 20px;
+}
+
+a {
+    margin: 0 15px 0 15px;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.bio_wrapper_div {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    align-content: center;
+}
+
+.bio {
+    width: 55%;
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    margin-top: 22px;
 }
