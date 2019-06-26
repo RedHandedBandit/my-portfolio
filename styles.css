@@ -1,5 +1,7 @@
 body {
     background-color: #FF4101;
+    /* background-color: #39B2A7 ; */
+    /* background-color: #EF1325 */
 }
 header {
     font-size: 14px;
@@ -42,10 +44,13 @@ button {
     position: absolute;
     z-index: -1;
     top: -120px;
-    color: white;
+    color: rgba(255, 255, 255);
     width: 150%;
     transform: rotate(-8deg);
     font-family: 'Sawarabi Gothic', sans-serif;
+    animation: hello_slide_1 .5s forwards;
+    /* animation-duration: 3s; */
+    /* animation-delay: .1s; */
 }
 
 .hello_2 {
@@ -53,17 +58,14 @@ button {
     text-transform: uppercase;
     font-weight: 700;
     position: absolute;
-    color: rgba(255, 255, 255);
+    color: rgba(255, 255, 255, 0);
     width: 150%;
     top: 100px;
     left: -55px;
     transform: rotate(-8deg);
     font-family: 'Sawarabi Gothic', sans-serif;
-    text-shadow:
-		-1px -1px 0 white,
-		1px -1px 0 white,
-		-1px 1px 0 white,
-        1px 1px 0 white;
+    -webkit-text-stroke: 1px white;
+    animation: hello_slide_2 .5s forwards;
 }
 
 .scroll_div {
@@ -134,4 +136,14 @@ footer {
     color: white;
     letter-spacing: 1px;
     margin-top: 22px;
+}
+
+@keyframes hello_slide_1 {
+    0% {left: -255px;}
+    100% {left: -55px;}
+}
+
+@keyframes hello_slide_2 {
+    0% {left: 155px}
+    100% {left: -55px}
 }

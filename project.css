@@ -1,0 +1,139 @@
+body {
+    background: black;
+}
+
+header {
+    font-size: 14px;
+    font-weight: 800;
+    color: white;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-transform: uppercase;
+}
+
+button {
+    border: none;
+    background: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.vanScotty_div {
+    /* border: solid white; */
+    position: relative;
+    height: 500px;
+    margin-top: 60px;
+}
+
+#vs {
+    font-size: 65px;
+    font-family: 'Notable', sans-serif;
+    text-transform: capitalize;
+    position: absolute;
+    z-index: 1;
+    top: 200px;
+    left: 432px;
+    -webkit-text-stroke: 1px red;
+    color: rgba(255, 255, 255, 0);
+    transition: .4s ease-out;
+}
+
+#vs:hover {
+    color: red;
+    transition-duration: .8s;
+}
+
+.vanScotty_div h1 {
+    font-size: 55px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.greatest_power_sab {
+    height: 220px;
+    position: absolute;
+    left: 350px;
+    top: 0px;
+    animation-name: fade;
+    animation-duration: 7s;
+}
+
+.white_vs {
+    height: 260px;
+    position: absolute;
+    top: 120px;
+    left: 35px;
+    animation-name: fade;
+    animation-duration: 4s;
+
+}
+
+.athlete {
+    height: 200px;
+    position: absolute;
+    /* top: 200px; */
+    right: 100px;
+    bottom: 76px;
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+#abby {
+    height: 200px;
+    position: absolute;
+    right: 290px;
+    top: 20px;
+    animation-name: fade;
+    animation-duration: 8s;
+}
+
+#branch_vs {
+    height: 225px;
+    position: absolute;
+    bottom: 0px;
+    right: 300px;
+    animation-name: fade;
+    animation-duration: 10s;
+}
+
+#sand_wings {
+    height: 180px;
+    position: absolute;
+    left: 700px;
+    animation-name: fade;
+    animation-duration: 4s;
+}
+
+#spike {
+    height: 185px;
+    position: absolute;
+    bottom: 25px;
+    left: 320px;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+#tysan {
+    height: 375px;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    animation-name: fade;
+    animation-duration: 6s;
+}
+
+@keyframes fade {
+    from { opacity: 0;}
+    to { opacity: 1;}
+}
