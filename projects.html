@@ -13,7 +13,7 @@
         <button> <a href="./index.html"> profile </a> </button>
         <button> projects </button>
     </header>
-    <div class="vanScotty_div">
+    <div class="vanScotty_div" onmousemove="mouseMove(event)">
         <h1> <a id="vs" href="https://myfakevisors.com/#/"> see work </a> </h1>
         <img class="greatest_power_sab" src="./assests/project_vs/greatest_power_sab.png" alt="van scotty image">
         <img class="white_vs" src="./assests/project_vs/white_vs.png" alt="van scotty image">
@@ -24,5 +24,17 @@
         <img id="spike" src="./assests/project_vs/spike.png" alt="van scotty image">
         <img id="tysan" src="./assests/project_vs/tysan.png" alt="van scotty image">
     </div>
+    <script>
+        function mouseMove(e) {
+            let x = e.clientX;
+            let y = e.clientY;
+            // let coor = console.log("Coordinates: (" + x + "," + y + ")")
+            let coor;
+            if(x < 500 && y < 1000){
+                coor = document.getElementsByClassName('vanScotty_div').style.left = '200px;';
+            }
+            document.getElementsByClassName('vanScotty_div').innerHTML = coor[0];
+        }
+    </script>
 </body>
 </html>
