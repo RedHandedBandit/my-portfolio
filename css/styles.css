@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Inter";
+    src: url(../fonts/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: "Inter Bold";
+    src: url(../fonts/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: "Inter Semi-bold";
+    src: url(../fonts/Inter-SemiBold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: #FF4101; */
+    /* background-color: #39B2A7 ; */
+    /* background-color: #EF1325 */
+    background-color: #ffffff;
+    margin: 0;
+}
+
+.home-header{
+    width: 100%;
+    min-height: 100px;
+}
+
+.home-nav{
+    width: 100%;
+    min-height: 100px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: space-evenly;
+    font-family: "Inter Semi-bold";
+}
+
+.home-nav ul{
+    width: 100%;
+    min-height: 100px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: space-evenly;
+    text-decoration: none;
+}
+
+.home-nav ul li{
+    width: auto;
+    min-height: auto;
+    list-style: none;
+    text-decoration: none;
+    margin: 20px;
+    border: solid transparent;
+    cursor: pointer;
+}
+
+.home-nav ul li:hover{
+    opacity: .8;
+    border-bottom: solid hsl(0, 0%, 0%,80%) 2px;
+    cursor: pointer;
+    transition: all ease-in 200ms;
+}

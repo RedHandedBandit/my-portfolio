@@ -4,53 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
     <title>my-portfolio</title>
 </head>
 <body>
-    <header>
-        <button> profile </button>
-        <!-- <button class="tabLink" onclick="openTab(event, projects)"> projects </button> -->
-        <button> <a href="./projects.html"> projects </a> </button>
-    </header>
-    <div class="main_profile_div">
-        <h1 class="hello_1"> hello hello </h1>
-        <div>
-            <img src="./assests/long_hair.jpg" alt="profile picture">
+    <div class="home-header">
+        <div class="home-nav">
+            <ul>
+                <li id="item-one">Tanner Championship</li>
+                <li id="item-two" onclick="location = './src/gb-main.html'">Gilbert Bowl</li>
+                <li id="item-three">About The Commish</li>
+            </ul>
         </div>
-        <h1 class="hello_2">hello hello </h1>
-        <div class="scroll_div">
-            <div class="fixed_a_tags_div">
-                <a href="https://www.linkedin.com/in/jackson-tanner/"> In </a>
-                <a href="https://github.com/RedHandedBandit"> git </a>
-            </div>
-                <p> scroll </p>
-                <hr>
-        </div>
-        <div class="bio_wrapper_div">
-            <section class="bio">
-                <p> Hello, My name is Jackson Tanner. I am a Web Developer graduate of DevMountain - class of June 2019.
-                Since I could remember, I was always fascinated with what was behind a computer, video games, movies and other electronics.  
-                </p>
-    
-                <p>I envied people with a creative mind and attitude and began to surround myself with those types of people. Soon I began to fall in love with the web development world.
-                I really enjoy freelance work because it gives me an opportunity to express my creative mind and show the world what I can do. 
-                Besides finding me in front of my computer, I love almost any type of extreme sport such as, snowboarding, mountain biking and skim boarding. </p>
-            </section>
-        </div>
-        <footer>
-            Jackson.Tanner14@icloud.com
-        </footer>
     </div>
-    <script>
-        function openTab(event, name) {
-            let i, tabContent, tabLink;
-            tabContent = document.getElementsByClassName("tabContent");
-            for (i = 0; i < tabContent.length; i++) {
-            tabContent[i].style.display = "none";
-        }
-        }
-    </script>
 </body>
 </html>
