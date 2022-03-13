@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: "Inter Bold";
+  src: url(../fonts/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: "Inter Semi-bold";
+  src: url(../fonts/Inter-SemiBold.ttf);
+}
+
+.news-container{
+  width: 100%;
+  min-height: 600px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+
+.top-news{
+  min-height: 600px;
+  width: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+  /* background-color: blue; */
+}
+
+.top-news-title{
+  width: 90%;
+  min-height: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  font-family: "Inter Semi-bold";
+  font-size: 15px;
+  border-bottom: solid 1px #000000;
+  /* background-color: red; */
+}
+
+.top-news-hero{
+  width: 90%;
+  height: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #000000;
+  /* background-color: purple; */
+}
+
+.hero-art{
+  height: 100%;
+  width: 100%;
+}
+
+.top-news-content{
+  width: 90%;
+  min-height: 100px;
+  font-family: "Inter Bold";
+  border-bottom: #000000 solid 1px;
+  /* background-color: green; */
+}
+
+.top-news-content h2{
+  font-size: 20px;
+  margin: 5px;
+}
+
+.top-news-content p{
+  font-family: "Inter";
+  font-size: 15px;
+  margin: 5px;
+}
