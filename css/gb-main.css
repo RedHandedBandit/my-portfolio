@@ -141,4 +141,5 @@
 
 .pr-items .rank p{
   margin-right: 5px;
+  min-width: 50px;
 }
