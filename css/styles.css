@@ -27,7 +27,6 @@ body {
 .home-header{
     width: 100%;
     min-height: 100px;
-    box-shadow: 0 4px 10px -2px #000000;
 }
 
 .home-nav{
@@ -44,6 +43,7 @@ body {
     color: #ffffff;
     font-size: 17px;
     background-color: #000000;
+    box-shadow: 0 4px 10px -2px #000000;
 }
 
 .home-nav ul{
